@@ -1,0 +1,33 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+
+# Local PostgreSQL / SQLite artifacts
+*.db
+*.sqlite3
+*.sqlite
+
+# Logs
+*.log
+logfile
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+
+# Storage artifacts: keep folder structure, ignore generated files
+storage/images/*
+storage/reports/*
+!storage/images/.gitkeep
+!storage/reports/.gitkeep
